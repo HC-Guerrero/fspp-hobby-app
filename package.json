@@ -1,0 +1,16 @@
+{
+  "name": "fspp-hobby-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "back-end/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vidya",
+    "videogame",
+    "hobby"
+  ],
+  "author": "",
+  "license": "ISC"
+}
