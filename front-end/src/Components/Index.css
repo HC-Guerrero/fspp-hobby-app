@@ -23,3 +23,7 @@ tbody td{
 th, td{
     padding:10px;
 }
+.gamesTable{
+  
+color: var(--secondary-color);
+}

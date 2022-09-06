@@ -1,0 +1,21 @@
+
+
+#toggleBright{
+    height: 45px;
+    margin-top: 12.5px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: gray;
+    box-shadow: 2px 2px 2px 2px darkslategray;
+    }
+    #toggleBright:hover{
+        animation: wobble 1.3s ease-out;
+        animation-iteration-count: infinite
+    }
+    #toggleBright:active {
+       box-shadow: inset 2px 2px 7px 7px darkslategray;
+       transform: translate(4px);
+
+    }

@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Navbar from './Components/Navbar';
+import HomePage from './Pages/home.js';
+import IndexPage from './Pages/index.js';
+import EditGame from './Pages/edit.js';
+import ShowGame from './Pages/show.js';
+import NewGame from './Pages/new.js';
+import ErrorGameRequest from './Pages/error.js';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Navbar />
+      <main>
+        <Routes>
+          <Route path='/' element={<HomePage />} />
+          <Route path='games/' element={<IndexPage />} />
+          <Route path='games/new' element={<NewGame />} />
+          <Route path='games/:id' element={<ShowGame />} />
+          <Route path='games/:id/edit' element={<EditGame />} />
+          <Route path='/*' element={<ErrorGameRequest />} />
+        </Routes>
+      </main>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
