@@ -2,6 +2,7 @@ table {
     table-layout: fixed;
     width: 100%;
     border-collapse:collapse;
+    border-spacing: 10px;
     border: 2px solid black;
 }
 thead th:nth-child(1) {
@@ -22,4 +23,12 @@ tbody td{
 
 th, td{
     padding:10px;
+}
+
+.gameData{
+    overflow-wrap: break-word;
+    word-wrap:break-word;
+    word-break: break-all;
+    word-break:break-word;
+   hyphens: auto;
 }

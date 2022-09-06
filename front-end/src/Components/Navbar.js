@@ -15,17 +15,23 @@ function Navbar() {
       <DarkModeStyles></DarkModeStyles>
       <div className='navDiv'>
         <nav>
-          <h1 className='title'>
-            <Link className='active' to='/'>
-              G x 2
-            </Link>
-          </h1>
-          <button onClick={toggleDarkMode}>Enable DarkMode</button>
-          <button id='Create' className='createButton'>
-            <Link className='createGameBtn' to='games/new'>
-              Create Game Entry
-            </Link>{' '}
-          </button>
+          <div>
+            <h1 className='title'>
+              <Link className='active' to='/'>
+                G x 2
+              </Link>
+            </h1>
+          </div>
+          <div>
+            <button onClick={toggleDarkMode}>Enable DarkMode</button>
+          </div>
+          <div>
+            <button id='Create' className='createButton'>
+              <Link className='createGameBtn' to='games/new'>
+                Create Game Entry
+              </Link>{' '}
+            </button>
+          </div>
         </nav>
       </div>
     </ThemeProvider>

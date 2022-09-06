@@ -1,6 +1,7 @@
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
+import ReactPlayer from 'react-player';
 import './Show.css';
 
 function Show() {
@@ -33,6 +34,7 @@ function Show() {
         <table className='showTable'>
           <tr className='showTR'>
             {' '}
+            <th>Thumbnail</th>
             <th>Name</th>
             <th>Genre</th>
             <th>Price </th>
@@ -42,7 +44,15 @@ function Show() {
             <th>Developer</th>
             <th>Platform</th>
           </tr>
-          <tbody>
+          <tbody className='gameData'>
+            <td>
+              <img
+                src={games.thumbnail}
+                height='100'
+                width='150'
+                alt='game image'
+              />
+            </td>
             <td>{games.name}</td>
             <td>{games.type}</td>
             <td> ${games.price}</td>
@@ -53,6 +63,45 @@ function Show() {
             <td>{games.developer}</td>
             <td>{games.platform}</td>
           </tbody>
+          <h1>Screenshots: </h1>
+          <div>
+            <tbody className='screenshots'>
+              <td>
+                <img
+                  src={games.screenshot1}
+                  height='400'
+                  width='450'
+                  alt='game image1'
+                />
+              </td>
+              <br />
+              <td>
+                <img
+                  src={games.screenshot2}
+                  height='400'
+                  width='450'
+                  alt='game image2'
+                />
+              </td>
+              <br />
+              <td>
+                <img
+                  src={games.screenshot3}
+                  height='400'
+                  width='450'
+                  alt='game image3'
+                />
+              </td>
+            </tbody>
+          </div>
+          <h1>
+            <strong>Gameplay:</strong>
+          </h1>
+          <div>
+            <ReactPlayer url={games.video} />
+          </div>
+          <h1>Summary:</h1>
+          <p>{games.description} </p>
         </table>
         <Link to={`/games/${id}/edit`}>
           <button id='edit'>Edit</button>

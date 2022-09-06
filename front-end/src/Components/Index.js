@@ -18,8 +18,8 @@ function Index() {
       <section>
         <table>
           <tr>
+            <th>Thumbnail</th>
             <th>Name</th>
-
             <th>Genre</th>
             <th>Price </th>
             <th>Language</th>
