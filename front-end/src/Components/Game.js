@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Game.css';
 
-const URL = process.env.REACT_APP_API_URL;
 function Games({ game }) {
   return (
     <tr className='gameData'>
