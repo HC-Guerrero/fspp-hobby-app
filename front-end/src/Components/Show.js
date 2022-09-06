@@ -101,7 +101,7 @@ function Show() {
             <ReactPlayer url={games.video} />
           </div>
           <h1>Summary:</h1>
-          <p>{games.description} </p>
+          <p>{games.description}</p>
         </table>
         <Link to={`/games/${id}/edit`}>
           <button id='edit'>Edit</button>
