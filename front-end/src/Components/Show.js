@@ -2,6 +2,7 @@ import axios from 'axios';
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import ReactPlayer from 'react-player';
+import WriteComment from './Comments.js';
 import './Show.css';
 
 function Show() {
@@ -102,6 +103,9 @@ function Show() {
           </div>
           <h1>Summary:</h1>
           <p>{games.description}</p>
+          <section>
+            <WriteComment />
+          </section>
         </table>
         <Link to={`/games/${id}/edit`}>
           <button id='edit'>Edit</button>

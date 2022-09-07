@@ -82,14 +82,6 @@ export default function Edit() {
             placeholder='Game UI and Dialog Language'
             required
           />
-          <label htmlFor='store_link'>Store Link:</label>
-          <input
-            id='store_link'
-            type='text'
-            value={games.Store_Link}
-            onChange={handleTextChange}
-            placeholder='Where can it be bought?'
-          />
           <label htmlFor='publisher'>Publisher:</label>
           <input
             id='publisher'
@@ -116,6 +108,14 @@ export default function Edit() {
             onChange={handleTextChange}
             placeholder='What hardware can run the game?'
             required
+          />
+          <label htmlFor='Description'>Description:</label>
+          <input
+            id='description'
+            type='text'
+            value={games.description}
+            onChange={handleTextChange}
+            placeholder='What is it about?'
           />
           <div>
             <input id='editSubmit' type='submit' />
