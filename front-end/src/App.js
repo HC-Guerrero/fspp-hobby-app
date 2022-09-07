@@ -18,8 +18,10 @@ const App = () => {
           <Route path='games/new' element={<NewGame />} />
           <Route path='games/:id' element={<ShowGame />} />
           <Route path='games/:id/edit' element={<EditGame />} />
-          <Route path='/*' element={<ErrorGameRequest />} />
+          <Route path='*' element={<ErrorGameRequest />} />
         </Routes>
+        <script src='https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js'></script>
+        <script src='../Comments.js'></script>
       </main>
     </BrowserRouter>
   );

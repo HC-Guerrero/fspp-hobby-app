@@ -1,10 +1,41 @@
+@keyframes videoNums-pulse{
+    0% {
+        border-color: blue;
+        color: blue;
+    }
+    40% {
+        border-color: green;
+        color: green;
+    }
+    70% {
+        border-color: violet;
+        color: violet;
+    }
+    100% {
+        border-color: purple;
+        color:purple;
+    }
+}
 .navDiv {
     grid-area: header;
-    display: flex;
+    display: grid;
     color: white;
     justify-content: space-between;
-    background: linear-gradient(-15deg, white, gray, black);
+    background: black;
     text-align: left;
- 
     box-shadow: 20px 10px 20px 10px gray;
+}
+#DarkBtn{
+    border-radius:20%;
+    background-color: transparent;
+    animation: videoNums-pulse 10s infinite;
+    height: 30px;
+    
+}
+#Create{
+    border-radius:20%;
+    background-color:transparent;
+    animation: videoNums-pulse 10s infinite;
+    height:30px;
+    
 }

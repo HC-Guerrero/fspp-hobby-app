@@ -16,16 +16,13 @@ function Navbar() {
       <div className='navDiv'>
         <nav>
           <div>
-            <h1 className='title'>
-              <Link className='active' to='/'>
-                G x 2
-              </Link>
-            </h1>
-          </div>
-          <div>
-            <button onClick={toggleDarkMode}>Enable DarkMode</button>
-          </div>
-          <div>
+            <Link className='active' to='/'>
+              <img src={require('../Assets/gx2logo.png')} alt='gglogo' />
+            </Link>
+
+            <button id='DarkBtn' onClick={toggleDarkMode}>
+              Enable DarkMode
+            </button>
             <button id='Create' className='createButton'>
               <Link className='createGameBtn' to='games/new'>
                 Create Game Entry

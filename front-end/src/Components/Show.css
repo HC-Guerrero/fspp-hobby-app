@@ -32,3 +32,6 @@ th, td{
     word-break:break-word;
    hyphens: auto;
 }
+#summarySect {
+    border: solid 2px black;
+}
