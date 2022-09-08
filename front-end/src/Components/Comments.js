@@ -58,9 +58,7 @@ export const LoadComments = ({ comments }) => {
             {comment.name} &middot;{' '}
             {new Date(1000 * comment.time).toLocaleDateString()}
           </span>
-          <span className='text-md mt-3 text-gray-500 dark:text-gray-300'>
-            {comment.content}
-          </span>
+          <span>{comment.content}</span>
         </div>
       ))
   );
@@ -88,7 +86,7 @@ const WriteComment = ({ slug, setComments }) => {
           placeholder='Your Name/UserHandle'
           onChange={(event) => setName(event.target.value)}
         />
-        <span className='text-sm text-gray-400'></span>
+        <span></span>
       </div>
       <textarea
         required

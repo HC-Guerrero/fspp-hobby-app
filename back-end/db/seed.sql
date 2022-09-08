@@ -7,7 +7,7 @@ INSERT INTO vidya (editing_rights, name, type, price, language, Store_Link,   pu
 'https://www.mobygames.com/images/shots/l/404441-advance-wars-dual-strike-nintendo-ds-screenshot-the-battle.png', 'https://koopanique.neocities.org/video_games/video_games_pictures/advance_wars2.JPG', 'https://i.ytimg.com/vi/NpGoGBOBfMg/maxresdefault.jpg', 'https://www.youtube.com/watch?v=-0YI41OfAlM',
 'A simple, yet surprisingly in-depth turn-based tactics game developed for the DS as the sequel to Advance Wars 2, Black Hole Rising. Additional features include several new units and commanders, a dual commander and battlefield system and the addition of the Dual Strike super power mechanic.'),
 
-(false, 'Escape From Tarkov','Realistic Multiplayer RPG Survial Shooter', 45, 'English/Russian',  'https://www.escapefromtarkov.com/preorder-page', 'Battlestate Games', 'Battlestate Games', 'PC', 
+(false, 'Escape From Tarkov','Realistic Multiplayer RPG Survival Shooter', 45, 'English/Russian',  'https://www.escapefromtarkov.com/preorder-page', 'Battlestate Games', 'Battlestate Games', 'PC', 
 'https://www.pngall.com/wp-content/uploads/5/Escape-From-Tarkov-PNG-File.png', 'https://www.escapefromtarkov.com/uploads/filemanager/files/eft_alpha_woods12.jpg', 'https://install-game.com/wp-content/uploads/2019/04/Escape-From-Tarkov-Screenshots-2.jpg',
 'https://www.guru3d.com/index.php?ct=news&action=file&id=19425', 'https://www.youtube.com/watch?v=ilN-Juv6sVw', 'A realistic and brutal survival shooter set in the fictional Russian city of Tarkov where lawlessness reigns. Scavenge, run, and kill to survive another day. Welcome to Tarkov where survival is your resposnbility.'),
 
