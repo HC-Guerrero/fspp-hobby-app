@@ -1,7 +1,7 @@
 /c video_games;
 
 
-INSERT INTO vidya (editing_rights, name, type, price, language, Store_Link,   publisher, developer, platform, thumbnail, screenshot1, screenshot2, screenshot3, video, description) VALUES
+INSERT INTO vidya (editing_rights, name, type, price, language, Store_Link, publisher, developer, platform, thumbnail, screenshot1, screenshot2, screenshot3, video, description) VALUES
 (false, 'Advance Wars: Dual Strike','Turn Based Strategy', 30, 'English', 'https://www.gamestop.com/products/advance-wars-dual-strike---nintendo-ds/919020.html', 
 'Nintendo', 'Intelligent Systems', 'Nintendo DS','https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/11a10a01-ac23-4fea-ad5a-b51f53084159/dcood0h-565d5327-42ee-48e2-a913-324bbcfccb7d.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzExYTEwYTAxLWFjMjMtNGZlYS1hZDVhLWI1MWY1MzA4NDE1OVwvZGNvb2QwaC01NjVkNTMyNy00MmVlLTQ4ZTItYTkxMy0zMjRiYmNmY2NiN2QucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.jHNOMlOKgebrcvcODo-jOCaa-uW8OWCBeWaQD9OsgBM',
 'https://www.mobygames.com/images/shots/l/404441-advance-wars-dual-strike-nintendo-ds-screenshot-the-battle.png', 'https://koopanique.neocities.org/video_games/video_games_pictures/advance_wars2.JPG', 'https://i.ytimg.com/vi/NpGoGBOBfMg/maxresdefault.jpg', 'https://www.youtube.com/watch?v=-0YI41OfAlM',
